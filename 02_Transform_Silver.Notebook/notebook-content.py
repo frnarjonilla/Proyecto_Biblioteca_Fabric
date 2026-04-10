@@ -56,7 +56,7 @@ df_silver.write.format("delta") \
     .mode("overwrite") \
     .saveAsTable("checkouts_silver")
 
-print("✅ Capa Plata creada con éxito. Tabla 'checkouts_silver' lista en el Lakehouse.")
+print("✅ Capa Silver creada con éxito. Tabla 'checkouts_silver' lista en el Lakehouse.") 
 
 # METADATA ********************
 
