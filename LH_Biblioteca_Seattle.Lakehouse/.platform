@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "LH_Biblioteca_Seattle"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "cb72da2b-8575-88f9-43dd-6b8b2498094b"
+  }
+}
