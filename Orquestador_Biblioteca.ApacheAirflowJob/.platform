@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "ApacheAirflowJob",
+    "displayName": "Orquestador_Biblioteca"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "04b15d06-3601-8600-4d03-a55ee4c594bd"
+  }
+}
