@@ -5,7 +5,9 @@
       "airflowProperties": {
         "airflowConfigurationOverrides": {},
         "airflowEnvironment": "FabricAirflowJob-1.0.0",
-        "airflowRequirements": [],
+        "airflowRequirements": [
+          "apache-airflow-providers-microsoft-fabric "
+        ],
         "airflowVersion": "2.10.5",
         "enableAADIntegration": true,
         "enableTriggerers": false,
