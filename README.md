@@ -8,7 +8,7 @@ Este proyecto implementa una solución de **End-to-End Data Engineering** utiliz
 * **Procesamiento:** PySpark (Notebooks)
 * **Almacenamiento:** Lakehouse (Arquitectura Medallion - Delta Lake)
 * **Control de Versiones:** GitHub + Fabric Git Integration
-* **CI/CD:** Fabric Deployment Pipelines (Dev -> Prod)
+* **CI/CD:** Fabric Deployment Pipelines (Dev -> Test -> Prod)
 
 ## 🏗️ Arquitectura de Datos (Medallion)
 1.  **Bronze (Raw):** Ingestión de CSVs originales desde Seattle Open Data.
@@ -24,6 +24,7 @@ El pipeline está orquestado mediante un DAG que gestiona:
 ## 🚀 Implementación de CI/CD
 El proyecto utiliza un sistema de dos entornos:
 - **`Biblioteca_Ventas_DEV`**: Espacio de desarrollo conectado a este repositorio.
+- **`Biblioteca_Ventas_TEST`**: Espacio de pruebas conectado a Biblioteca_Ventas_Dev.
 - **`Biblioteca_Ventas_PROD`**: Espacio de producción actualizado mediante **Deployment Pipelines**, asegurando que solo el código probado llegue al usuario final.
 
 ---
