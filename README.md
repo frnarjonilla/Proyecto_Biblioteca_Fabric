@@ -28,4 +28,9 @@ El proyecto utiliza un sistema de dos entornos:
 - **`Biblioteca_Ventas_PROD`**: Espacio de producción actualizado mediante **Deployment Pipelines**, asegurando que solo el código probado llegue al usuario final.
 
 ---
-*Proyecto en desarrollo - Construido en público por Francisco Arjonilla Tello* 🚀
+
+## 🚀 Resultados del Proyecto
+- **Arquitectura:** Medallion (Bronze -> Silver -> Gold).
+- **Modelo:** RandomForestRegressor entrenado para predecir demanda de libros.
+- **Rendimiento:** Se alcanzó un RMSE de 8.06, demostrando la viabilidad de la predicción mensual.
+- **Gobernanza:** Experimentos registrados y versionados mediante MLflow.
