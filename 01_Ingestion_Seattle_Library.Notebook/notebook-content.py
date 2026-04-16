@@ -8,12 +8,12 @@
 # META   },
 # META   "dependencies": {
 # META     "lakehouse": {
-# META       "default_lakehouse": "9ce1405b-25a5-46a2-b82c-0a9e2eddc455",
+# META       "default_lakehouse": "2498094b-6b8b-43dd-88f9-8575cb72da2b",
 # META       "default_lakehouse_name": "LH_Biblioteca_Seattle",
-# META       "default_lakehouse_workspace_id": "b6217979-6ebe-4e4e-8caf-c6f04f911e56",
+# META       "default_lakehouse_workspace_id": "89c188da-fb80-4076-9a89-31304909b91d",
 # META       "known_lakehouses": [
 # META         {
-# META           "id": "9ce1405b-25a5-46a2-b82c-0a9e2eddc455"
+# META           "id": "2498094b-6b8b-43dd-88f9-8575cb72da2b"
 # META         }
 # META       ]
 # META     }
@@ -26,7 +26,7 @@ import requests
 
 # 1. Configuración
 DATASET_ID = "tmmm-ytt6"
-url = f"https://data.seattle.gov/resource/{DATASET_ID}.csv?$limit=50000"
+url = f"https://data.seattle.gov/resource/{DATASET_ID}.csv?$limit=200000"
 target_path = "/lakehouse/default/Files/Bronze/checkouts_biblioteca_raw.csv"
 
 print(f"🤖 Iniciando descarga automática del dataset {DATASET_ID}...")

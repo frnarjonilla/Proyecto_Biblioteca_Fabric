@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "MLExperiment",
+    "displayName": "Prediccion_Demanda_Libros_Seattle"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c449bba5-49b0-abb2-4eca-f585bb65020f"
+  }
+}
