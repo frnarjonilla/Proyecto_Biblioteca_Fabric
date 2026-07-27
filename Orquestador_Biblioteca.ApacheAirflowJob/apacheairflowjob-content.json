@@ -14,7 +14,7 @@
         "pythonVersion": "3.12"
       },
       "computeProperties": {
-        "computePool": "CustomPool",
+        "computePool": "Starter",
         "computeSize": "Small",
         "enableAutoscale": false,
         "enableAvailabilityZones": false,
